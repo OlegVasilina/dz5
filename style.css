@@ -1,0 +1,65 @@
+/* Практическая работа №4. Bootstrap + Mobile First. */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #222;
+    background: #fff;
+    line-height: 1.5;
+}
+
+.site-header {
+    background: #e8e8e8;
+}
+
+.logo-mark {
+    display: inline-flex;
+    width: 96px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #343a40;
+    border-radius: 8px;
+    color: #343a40;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: #fff;
+}
+
+.sidebar {
+    background: #f1f1f1;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.link-image,
+.map-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.link-image {
+    width: 550px;
+}
+
+.map-image {
+    width: 450px;
+}
+
+.site-footer {
+    background: #f8f9fa;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: sticky;
+        top: 1rem;
+    }
+}
